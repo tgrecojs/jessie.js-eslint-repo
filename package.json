@@ -1,0 +1,21 @@
+{
+  "name": "jessie-eslint-error-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./source/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jessie.js/eslint-plugin": "^0.1.3",
+    "eslint": "^8.4.1"
+  },
+    "eslintConfig": {
+      "extends": [
+        "@jessie.js"
+      ]
+  }
+}
