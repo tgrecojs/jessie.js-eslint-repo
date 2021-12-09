@@ -13,9 +13,9 @@
     "@jessie.js/eslint-plugin": "^0.1.3",
     "eslint": "^8.4.1"
   },
-    "eslintConfig": {
+  "eslintConfig": {
       "extends": [
-        "@jessie.js"
+        "plugin:@jessie.js/recommended"
       ]
   }
 }
